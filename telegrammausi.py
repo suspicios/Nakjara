@@ -2,9 +2,9 @@ from telegram import Update
 from telegram.ext import Application, CommandHandler, ContextTypes
 
 # Configuration
-BOT_TOKEN = "YOUR_BOT_TOKEN_HERE"
-GROUP_CHAT_ID = -1001234567890  # Replace with your group chat ID (negative for groups)
-USER_ID_TO_ADD = 123456789  # Replace with the user ID you want to add
+BOT_TOKEN = "8111267492:AAEqr7wwBf_ttmSRJ7QlEfJErNyp8-oeTco"
+GROUP_CHAT_ID = -1002797887617# Replace with your group chat ID (negative for groups)
+USER_ID_TO_ADD = 8111327106  # Replace with the user ID you want to add
 
 async def add_member(update: Update, context: ContextTypes.DEFAULT_TYPE):
     """
